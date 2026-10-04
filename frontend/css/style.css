@@ -1,0 +1,19 @@
+/* Blue/white cloud-security theme */
+:root { --blue:#0d6efd; --dark-blue:#0a3d91; --light:#eaf3ff; }
+body { background: var(--light); min-height: 100vh; font-family: 'Segoe UI', Arial, sans-serif; }
+.navbar-brand i, .navbar-brand { font-weight: 600; }
+.bg-brand { background: linear-gradient(90deg, var(--dark-blue), var(--blue)); }
+.hero { background: linear-gradient(135deg, var(--dark-blue), #4aa3ff); color:#fff; padding: 90px 0; }
+.hero h1 { font-weight: 700; }
+.card { border: 0; border-radius: 14px; box-shadow: 0 4px 14px rgba(10,61,145,.12); }
+.auth-card { max-width: 460px; margin: 50px auto; }
+.btn-primary { background: var(--blue); border-color: var(--blue); }
+.feature-icon { font-size: 2rem; color: var(--blue); }
+.badge-status { font-size: .85rem; padding: .45em .8em; border-radius: 20px; color:#fff; }
+.st-Pending { background:#f0ad00; }
+.st-Under { background:#0dcaf0; color:#000; }
+.st-Approved { background:#198754; }
+.st-Rejected { background:#dc3545; }
+.st-None { background:#6c757d; }
+footer { color:#5b6b85; font-size:.9rem; padding:20px 0; }
+@media (max-width: 576px) { .hero { padding: 50px 0; } }

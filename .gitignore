@@ -1,0 +1,6 @@
+backend/.env
+backend/node_modules/
+backend/uploads/*
+!backend/uploads/.gitkeep
+npm-debug.log*
+.DS_Store
